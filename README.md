@@ -1,4 +1,4 @@
-# React Native Test
+# React Native Calculator
 
 Minimal Expo React Native calculator app styled after the iPhone calculator.
 
@@ -53,7 +53,7 @@ eas login
 ### Create a test APK
 
 ```bash
-cd /Users/saransh/Desktop/Github/React-native-test
+cd /Users/saransh/Desktop/Github/React-native-calculator
 eas build:configure
 eas build -p android --profile preview
 ```
@@ -83,7 +83,7 @@ The file `eas.json` is set up with a `preview` profile that builds an APK:
 ## Setup
 
 ```bash
-cd /Users/saransh/Desktop/Github/React-native-test
+cd /Users/saransh/Desktop/Github/React-native-calculator
 npm install
 npm start
 ```
@@ -91,7 +91,7 @@ npm start
 ## Project Structure
 
 ```text
-React-native-test/
+React-native-calculator/
 ├── App.js
 ├── app.json
 ├── eas.json
